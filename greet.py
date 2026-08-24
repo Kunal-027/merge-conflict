@@ -1,5 +1,5 @@
 def greet(name):
-    message = "Hello, " + name
+    message = f"Hello, {name}! Welcome."
     return message
 
 print(greet("World"))
